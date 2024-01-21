@@ -11,10 +11,11 @@
   text-align: center;
 }
 .searchBox {
-  padding: 50px;
+  padding: 20px;
 }
 footer {
   text-align: center;
+  padding: 30px;
 }
 .recipe {
   padding: 20px;
@@ -23,4 +24,25 @@ footer {
 .emojis {
   text-align: center;
   font-size: 45px;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.container .example {
+  padding: 25px;
+  opacity: 0.8;
+}
+.hidden {
+  display: none;
 }
