@@ -1,1 +1,26 @@
-
+.container {
+  max-width: 650px;
+  margin: 120px auto;
+  font-family: "Alegreya Sans", "sans-serif";
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 50px;
+}
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+.searchBox {
+  padding: 50px;
+}
+footer {
+  text-align: center;
+}
+.recipe {
+  padding: 20px;
+  text-align: center;
+}
+.emojis {
+  text-align: center;
+  font-size: 45px;
+}
