@@ -3,11 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
     <title>AI Spanish Recipe Generator</title>
   </head>
   <body>
-    <h1 class="title">Welcome to the Spanish Recipe Generator</h1>
+    <header>
+      <h1 class="title">Welcome to the Spanish Recipe Generator</h1>
+    </header>
+    <main>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter The Main Ingredient You Wish to Use"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <input type="submit" />
+      </form>
+      <div>The Poem Will Go Here</div>
+    </main>
+    <footer>
+      This project was coded by
+      <a href="www.linkedin.com/in/caroline-flora-knight-48a24b118"
+        >Caroline Knight</a
+      >
+      and is open-sourced on
+      <a href="https://github.com/carolineflora95/spanish-recipe-generator"
+        >Github</a
+      >
+    </footer>
     <script src="src/index.js"></script>
   </body>
 </html>
