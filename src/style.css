@@ -1,5 +1,5 @@
-.container {
-  max-width: 650px;
+.myContainer {
+  max-width: 500px;
   margin: 120px auto;
   font-family: "Alegreya Sans", "sans-serif";
   font-weight: 400;
@@ -39,7 +39,7 @@ footer {
     visibility: hidden;
   }
 }
-.container .example {
+.myContainer .example {
   padding: 25px;
   opacity: 0.8;
 }
